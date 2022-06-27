@@ -38,8 +38,8 @@ dsfront = robot.getDevice('ds_front')
 dsfront.enable(timestep)
 
 def lurus():
-    rightmotor.setVelocity(2.5)
-    leftmotor.setVelocity(2.5)
+    rightmotor.setVelocity(3.5)
+    leftmotor.setVelocity(3.5)
 def kiri():
     rightmotor.setVelocity(4)
     leftmotor.setVelocity(-4)
